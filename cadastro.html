@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/src/style-pagina-cadastro.css">
+</head>
+<body>
+
+
+       <!--ENTRAR EM CONTATO - FORM -->
+       <section id="contact" class="contact-section">
+        <div id="contact-section-align">
+            <h2>Contato</h2>
+            
+            <form id="form" action="pag-principal.html">
+                <label class="name" for="">Nome</label>
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <label class="email" for="">Email</label>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <label for="" class="mensagem">Vamos conversar!</label>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button onclick="apertou()" type="submit" class="btn">Enviar</button>
+            </form>
+            
+            <div class="contact-links">
+                <a href="https://linkedin.com/in/seuperfil" target="_blank">LinkedIn</a>
+                <a href="https://github.com/oBringel" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="src/script.js"> </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@media (max-width:1920px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        width: auto;
+    }
+    
+    .contact-section{
+      
+        font-weight:400;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(#42e695, #3bb2bb) repeat  top left ;
+    }
+    #contact-section-align{
+        border-radius: 15px;
+        background-color: #f8f8ff;
+        box-shadow: 10px 10px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
+        align-items: center;
+        width: 90%;
+        max-width: 400px;
+        min-width: 250px;
+        height: 95%;
+        max-height: 540px;
+    }
+    #contact-section-align p{
+        letter-spacing: 1px;
+        width:  100%;
+        max-width: 350px;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: monospace;
+    }
+    #contact-section-align h2{
+        
+        
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    #form{
+        font-family: monospace;
+        font-size: 1.2em;   
+        width: 90%;
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .7em;
+    }
+    .name, .email, .mensagem{
+        align-self: flex-start;
+        font-size: 1em;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .btn{
+        margin-top:1em ;
+        width: 100%;
+        max-width: 350px;
+        height: 30px;
+        font-size: 0.8em;
+        text-align: center;
+        background: #42e695;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    input{
+        width: 100%;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background: #f8f8ff;
+    }
+    
+    input:hover, textarea:hover {
+        border: 1px solid #42e695 ;
+        
+    }
+    input:focus{
+        border: none;
+       outline: 1px solid #3bb2bb;
+
+    }
+  
+    textarea{
+        border: none;
+        width: 100%;
+        min-width: 200px;
+        max-width: 300px;
+        min-height: 70px;
+        max-height: 100px;
+        outline: none;
+    }
+    textarea:focus{
+        border: none;
+        outline: 1px solid #42e695;
+    }
+    textarea::placeholder,input::placeholder{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    .contact-links{
+        width: 100%;
+      
+        max-width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-links a{
+        
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: .9em;
+
+        
+    }
+}
